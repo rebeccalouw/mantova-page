@@ -1,0 +1,95 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #024959;
+    text-align: center;
+}
+
+#mantova-header {
+    background-image: url(Images/mantova-background.jpg);
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    font-size: 32px;
+    color: #E7EEF1;
+    font-weight: bold;
+    background: #037F8C;
+    padding: 16px 24px;
+    border-radius: 10px;
+}
+
+#subtitle {
+    font-size: 18px;
+    color: #E7EEF1;
+    background: #037F8C;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.activities-section{
+    background: #B0CDD9;
+    display: flex;
+    justify-content: space-around;
+}
+
+#section1 {
+    padding: 58px 0 20px 0;
+}
+
+#section2 {
+    padding: 0 0 58px 0;
+}
+
+.activities-row {
+    display: flex;
+    flex-basis: 27%;
+    flex-grow: 0;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 20px;
+}
+
+.activity-name {
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.activity-img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.activity-img:hover {
+    border: 3px solid #7E8C11;
+}
+
+.card {
+    background: #D9886A;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin: 50px auto 0 auto;
+    border-radius: 20px;
+    border-bottom: 5px solid #024959;
+    border-left: 5px solid #024959;
+}
+
+#profile-pic {
+    width: 200px;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+#card-quote {
+    color: #011C26;
+}
